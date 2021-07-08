@@ -1,0 +1,168 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background-color: #f1f3f6;
+}
+.inner-div{
+  
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.content-slider {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    
+}
+.search-icon{
+    position: relative;
+    left: 100px;
+}
+.cart{
+    position: relative;
+    left: 105px;
+    
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+html{
+    line-height: 1.5;
+}
+#search-mobile-input-home{
+    height: auto;
+}
+.third-container{
+    
+    text-decoration: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    
+
+}
+.combo{
+
+     
+   
+    
+}
+.font-weight-bold{
+    text-align: center;
+}
+.fifth-container{
+    
+    text-decoration: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+
+}
+.fifth-container img{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#fixed{
+    position: static;
+    height: auto;
+}
+.butto{
+    position: relative;
+    left: 275px; 
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #CC0066;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 5px #999;
+    
+}
+.position{
+    display: inline-block;
+}
+#font{
+    position: static;
+}
+.oim{
+
+    display: inline-block;
+   position: absolute;
+   left: 170px;
+   top: 250px;
+  line-height: 1;
+
+}
+.oim h2{
+    color: #BF1363;
+}
+.button {
+    display: inline-block;
+    
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #CC0066;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+  }
+  
+  
+  .button:active {
+   
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.button {
+  display: inline-block;
+  
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #CC0066;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+.button:active {
+ 
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+  
+  .butto:active {
+   
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.third-container img{
+    border-radius: 0px 50px 50px 0px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.underline{
+    text-decoration: none;
+}
