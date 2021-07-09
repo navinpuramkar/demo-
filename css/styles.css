@@ -46,7 +46,7 @@ html{
     text-align: center;
 }
 .fifth-container{
-    
+    display: inline-block;
     text-decoration: none;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -167,4 +167,111 @@ html{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 5px;
+}
+.hori img{
+    text-decoration: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    width:100%; height: 100%;
+    padding-left: 7px;
+    padding-top: 10px;
+    position: relative;
+    padding-right: 0;
+}
+div{
+    display: block;
+}
+.content-slider-best-seller {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.content-slider-best-seller img {
+    border-style: none;
+}
+.inner-div-best-seller {
+    display: inline-block;
+    vertical-align: top;
+    width: 37%;
+    margin: 0 5px;
+    border: 1px solid #00000029;
+    padding: 5px;
+    background: #FFFFFF;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row .col.s4 {
+    width: 33.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+.row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 .75rem;
+    min-height: 1px;
+}
+.category-highlight-col {
+    padding: 0 3px !important;
+}
+.center, .center-align {
+    text-align: center;
+}
+.category-text {
+    position: absolute;
+    top: -14px;
+    font-size: 12px;
+    color: #333333;
+    width: 100%;
+}
+.truncate {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.center, .center-align {
+    text-align: center;
+}
+img.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: auto;
+}
+#bottom-navbar {
+    height: 55px;
+    z-index: 99;
+}
+.mobile-navbar-bottom {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dddddd;
+}
+.mobile-navbar-bottom a.active {
+    color: #FD7685;
+}
+.mobile-navbar-bottom a {
+    float: left;
+    display: block;
+    color: #666666;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
 }
