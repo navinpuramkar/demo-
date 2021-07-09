@@ -6,6 +6,7 @@ body {
 }
 .inner-div{
     text-align: center;
+    padding-right: 15px;
     display: inline-block;
     text-decoration: none;
     
